@@ -1,0 +1,325 @@
+1.Nish Medya Baslangic
+	
+ =>Html/Css Uygulama: Ekteki resmi html css ile kodlama.
+
+2.ASSIGNMENTS - 001 
+ 
+ =>RVM'i kullanarak, Ruby'nin 1.9.3-p452 versiyonunu kurunuz.
+
+ =>Car adlı bir class oluşturunuz. Bu sınıfın brand, model, color, km ve price şeklinde okunabilir ve yazılabilir 5 attribute'ü olsun.
+
+ =>Car sınıfında car_presentation adlı bir fonksiyon yazınız. Bu fonksiyon, beraber çağırıldığı Car nesnesi için aşağıdaki gibi bir metin çıktı versin:
+
+Örnek çağrı: 
+(car bir Car sınıfı örneği olmak üzere)
+car.car_presentation 
+
+Örnek çıktı:
+
+
+=>Merhaba! Şu anda Ford marka, 2012 model, kırmızı renkli ve 1212 km'de bulunan aracımızı görüntülemektesiniz! Bu aracımızın fiyatı 18000 TL! Bu fırsatı kaçırmayın!
+
+=>Car sınıfında installment_calculator adlı bir fonksiyon yazınız. Bu fonksiyonun görevi, beraber çağırıldığı Car nesnesi ile verilen taksit sayısı ile bir taksit tablosu çıkarması. 
+
+Örnek çağrı: 
+(car bir Car sınıfı örneği olmak üzere)
+car.installment_calculator(12)
+
+Örnek çıktı:
+
+-------------------------------------------------------------------
+Ford - 2012 - kırmızı | (12 eşit taksit)
+-------------------------------------------------------------------
+1. Taksit Ödemesi => 1500.0 TL
+2. Taksit Ödemesi => 1500.0 TL
+3. Taksit Ödemesi => 1500.0 TL
+4. Taksit Ödemesi => 1500.0 TL
+5. Taksit Ödemesi => 1500.0 TL
+6. Taksit Ödemesi => 1500.0 TL
+7. Taksit Ödemesi => 1500.0 TL
+8. Taksit Ödemesi => 1500.0 TL
+9. Taksit Ödemesi => 1500.0 TL
+10. Taksit Ödemesi => 1500.0 TL
+11. Taksit Ödemesi => 1500.0 TL
+12. Taksit Ödemesi => 1500.0 TL
+
+3.ASSIGNMENTS - 002
+
+=> Mercedes ve Ferrari adlı iki sınıfımız olsun. Bu sınıflar, Car sınıfının bütün özelliklere sahip olsun. 
+
+=> Mercedes ve Ferrari sınıflarından bir nesne oluşturulurken, otomatik olarak brand alanı ilgili markaya karşılık gelsin. 
+
+Örnek:
+
+> m = Mercedes.new
+> m.brand
+#=> "Mercedes"
+
+=> Aşağıdaki soruları bu metni göz önüne alarak ve tabii ki sadece Ruby kullanarak :) cevaplayınız:
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla malesuada laoreet dictum. In vitae massa eget tellus pharetra commodo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a adipiscing neque. Phasellus vulputate a sapien sit amet semper. Aliquam auctor ligula elementum, venenatis lacus vitae, rutrum nulla. Suspendisse tincidunt dolor non molestie pharetra. Nullam euismod elit eget eros accumsan, a pellentesque diam porttitor. Pellentesque non porta ipsum. Quisque in quam ligula. Vestibulum suscipit arcu porttitor, mattis massa in, semper massa. Duis rhoncus urna et massa placerat, at pharetra enim convallis. Sed a nunc sem. Ut scelerisque nunc quis aliquam consequat. Cras ultricies, mi nec facilisis fringilla, lectus elit pharetra ipsum, vitae fringilla elit mauris tincidunt orci.
+Curabitur pulvinar sapien in risus pellentesque, et sodales arcu molestie. Aliquam erat nisi, pellentesque at nulla vel, fringilla aliquet lectus. Nullam vel vulputate sapien, id lobortis orci. Morbi in viverra mauris. Nam consectetur urna a erat varius congue. Aenean facilisis tellus eget libero tristique varius. Etiam nisi metus, pretium sed nibh sed, iaculis consequat lorem. Phasellus ornare lacus in lectus aliquet, id tempus dui consectetur. Pellentesque tincidunt nec neque quis pretium. Suspendisse ultricies dignissim enim nec rutrum. Morbi laoreet ipsum eget convallis tempor. Duis aliquam ligula dui, sed interdum dui pharetra a. Nunc imperdiet consequat dolor nec laoreet. Duis tortor nibh, vulputate ac diam sed, malesuada feugiat erat. Integer congue nulla iaculis, hendrerit tortor eu, cursus magna.
+Nam commodo ultricies eros, eu venenatis ipsum viverra sit amet. Donec ultricies quis nulla vitae gravida. Donec sapien dolor, imperdiet ut ullamcorper eget, rhoncus id odio. Fusce quis euismod justo, ut pretium libero. Donec eget iaculis dui. Praesent in ultrices leo, sed lacinia erat. Praesent tincidunt ante nec quam hendrerit, id imperdiet nulla porttitor.
+Fusce eu facilisis nisi. Cras in arcu risus. Etiam lobortis dui enim, sed rutrum quam consequat at. Maecenas luctus, odio vitae luctus consequat, neque velit lacinia ligula, et rhoncus elit nisl vitae nisi. Sed euismod purus in justo euismod, eu sollicitudin felis dignissim. Nulla vitae tortor at ipsum ullamcorper scelerisque. Fusce ac commodo leo, suscipit posuere leo. Ut id nunc congue, sollicitudin sapien in, dignissim nisi. Nam quis pretium felis.
+Integer non magna consequat, dictum nunc vestibulum, luctus orci. Donec luctus fringilla lobortis. Fusce in dapibus mauris. Etiam rutrum sapien nec condimentum facilisis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque tristique quis felis vel cursus. Aenean ultrices in quam tincidunt scelerisque. Suspendisse commodo vulputate sapien, adipiscing tincidunt nunc tempus et. Morbi fermentum suscipit blandit. Ut vel iaculis elit. Mauris vitae sodales nisi.
+Sed malesuada ipsum vitae mi auctor facilisis. Quisque non neque tortor. Duis eu consectetur nulla. Morbi accumsan dolor vel risus adipiscing ultrices. Morbi non aliquet odio. Morbi dui diam, iaculis non egestas in, sodales ac ipsum. Aliquam fringilla, lorem at mollis ornare, felis quam feugiat dui, ac ultrices nunc ipsum commodo urna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut scelerisque imperdiet ligula sed mattis. Mauris et felis et mauris rhoncus volutpat.
+Maecenas placerat feugiat velit in laoreet. Praesent molestie pretium arcu vitae pretium. Donec nisl lacus, auctor quis commodo a, semper commodo est. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris nec leo quam. Donec gravida tellus eu arcu imperdiet, a tempus dui ornare. Proin vestibulum pellentesque nunc eu vulputate. Praesent at volutpat urna.
+Morbi ultricies dignissim tellus quis placerat. Pellentesque eget iaculis tellus, non ornare nibh. Nam laoreet molestie justo a pharetra. Donec vel est felis. Maecenas congue arcu eget nibh aliquam varius. Aenean sollicitudin blandit porta. Sed vitae lobortis nibh. Phasellus ullamcorper convallis odio, nec mattis leo pellentesque nec. Curabitur tincidunt elit neque, in semper ipsum eleifend nec. Etiam id nisl aliquam, vehicula risus eget, lacinia risus. Fusce elementum ipsum lacus.
+Aenean bibendum auctor luctus. Morbi at felis pulvinar, eleifend nibh ut, venenatis dui. Fusce vitae diam ornare, ullamcorper sapien id, fringilla eros. Nunc rutrum auctor urna, gravida blandit nisi faucibus ut. Pellentesque eget tellus quis sem pellentesque fermentum. Nulla vulputate ultricies cursus. Ut accumsan lorem fringilla arcu feugiat, commodo mollis turpis blandit. Maecenas sit amet tempus massa, ultricies sodales mauris. Vestibulum tristique a leo ut varius. Duis gravida varius diam cursus hendrerit. Nunc et ipsum ultricies, aliquet enim sed, convallis sem.
+Duis augue orci, cursus tempus urna nec, tristique posuere nisl. Nulla enim risus, fermentum at luctus et, feugiat id mauris. Phasellus quis arcu nisl. Nam tincidunt et elit nec auctor. Donec elementum tincidunt quam a hendrerit. Quisque tincidunt lorem quis nunc semper laoreet. Donec ac volutpat augue, cursus ultrices magna. In nec congue urna. 
+
+
+ =>Bu  metinde kaç cümle vardır?
+
+ =>Bu metinde kaç kelime vardır?
+
+ =>Bu metindeki tüm cümleleri, metindeki sırasını muhafaza etmek şartıyla tersten yazdırınız.
+
+         Örnek:
+
+         Düz:
+         Duis augue orci, cursus tempus urna nec, tristique posuere nisl. Nulla enim risus, fermentum at luctus et, feugiat id mauris. Phasellus quis arcu nisl. Nam tincidunt et elit nec auctor. Donec elementum tincidunt quam a hendrerit. Quisque tincidunt lorem quis nunc semper laoreet. Donec ac volutpat augue, cursus ultrices magna. In nec congue urna
+
+            Ters:
+         lsin ereusop euqitsirt ,cen anru supmet susruc ,icro eugua siuD. siruam di taiguef ,te sutcul ta mutnemref ,susir mine alluN . lsin ucra siuq sullesahP . rotcua cen tile te tnudicnit maN . tirerdneh a mauq tnudicnit mutnemele cenoD . teeroal repmes cnun siuq merol tnudicnit euqsiuQ . angam secirtlu susruc ,eugua taptulov ca cenoD . anru eugnoc cen nI
+
+
+ =>x = [1,2,3,4,5,6,7,8,9,10] olmak üzere x dizisini aşağıdaki şekillerde yazdırınız:
+
+ =>[2,4,6,8,10]
+
+
+ =>[1,3,5,7,9]
+
+
+ =>[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+
+ =>[[1, 2], [3, 4], [5, 6], [7, 8], [9, 10]]
+
+
+ =>[[10], [7, 8, 9], [4, 5, 6], [1, 2, 3]]
+      
+
+
+
+
+=>Aşağıdaki ASCII görseli hazırlanırken kullanılmış olabilecek Ruby komutu/komutlarını yazınız:
+
+->  nish  <-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-
+->->  nish  <-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-
+->->->  nish  <-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-
+->->->->  nish  <-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-
+->->->->->  nish  <-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-
+->->->->->->  nish  <-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-
+->->->->->->->  nish  <-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-
+->->->->->->->->  nish  <-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-
+->->->->->->->->->  nish  <-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-
+->->->->->->->->->->  nish  <-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-
+->->->->->->->->->->->  nish  <-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-
+->->->->->->->->->->->->  nish  <-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-
+->->->->->->->->->->->->->  nish  <-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-
+->->->->->->->->->->->->->->  nish  <-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-
+->->->->->->->->->->->->->->->  nish  <-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-
+->->->->->->->->->->->->->->->->  nish  <-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-
+->->->->->->->->->->->->->->->->->  nish  <-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-
+->->->->->->->->->->->->->->->->->->  nish  <-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-
+->->->->->->->->->->->->->->->->->->->  nish  <-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-
+->->->->->->->->->->->->->->->->->->->->  nish  <-<-<-<-<-<-<-<-<-<-<-<-<-<-<-
+->->->->->->->->->->->->->->->->->->->->->  nish  <-<-<-<-<-<-<-<-<-<-<-<-<-<-
+->->->->->->->->->->->->->->->->->->->->->->  nish  <-<-<-<-<-<-<-<-<-<-<-<-<-
+->->->->->->->->->->->->->->->->->->->->->->->  nish  <-<-<-<-<-<-<-<-<-<-<-<-
+->->->->->->->->->->->->->->->->->->->->->->->->  nish  <-<-<-<-<-<-<-<-<-<-<-
+->->->->->->->->->->->->->->->->->->->->->->->->->  nish  <-<-<-<-<-<-<-<-<-<-
+->->->->->->->->->->->->->->->->->->->->->->->->->->  nish  <-<-<-<-<-<-<-<-<-
+->->->->->->->->->->->->->->->->->->->->->->->->->->->  nish  <-<-<-<-<-<-<-<-
+->->->->->->->->->->->->->->->->->->->->->->->->->->->->  nish  <-<-<-<-<-<-<-
+->->->->->->->->->->->->->->->->->->->->->->->->->->->->->  nish  <-<-<-<-<-<-
+->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->  nish  <-<-<-<-<-
+->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->  nish  <-<-<-<-
+->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->  nish  <-<-<-
+->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->  nish  <-<-
+->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->  nish  <-
+
+
+Bu assingment için anahtar kelimeler:
+
+ruby arrays, each, select, map, sort, split, size, each_slice
+
+4.ASSIGNMENTS - 003
+ 
+ => Ruby 2.0.0-p452'de assingment3 adlı bir gemset oluşturunuz. Faker adlı gem'i yükleyiniz.
+
+
+ => User adlı bir sınıf oluşturunuz. Bu sınıfta yer alacak alanlar:
+
+- id (En fazla 2 basamaklı sayı olmalı)
+- name
+- city
+- email (free email adresleri olsunlar)
+- bio (2 paragraf olsun)
+
+ => Bu sınıftan türetilecek bütün instance'lara biz kendimiz değerler atayabilelim fakat eğer herhangi bir alana bir değer atamamışsak, o alana faker gem'i tarafından üretilmiş random değerler girilsin. Yani User sınıfının nesnelerinin hiç birine değer girmek zorunlu olmamalı. User.new dememiz yetmeli. Bunu kullandığımızda, bütün alanları doldurulmuş geçerli birer User nesnesi elde etmiş olalım.
+
+=> Sınıfınızın yer aldığı dosyayı masaüstünüzde assingment3 adlı bir klasöre kaydediniz. 
+
+İpucu: Aynı klasör içindeki .rb dosyalarını irb konsolundan require ederken başına ./ koymanız gerekir. Örnek: require './hebelek'
+
+
+ => User sınıfından 100 tane nesne oluşturup, bu nesneleri users adlı bir array'in içinde saklayınız.
+
+ => users array'inin içindeki nesneleri aşağıdaki şekillerde SIRALAYINIZ (Hepsi de tek satır):
+
+       id numarası küçükten büyüğe göre
+       id numarası büyükten küçüğe göre
+       name alanını göz önüne alarak A'dan Z'ye ve Z'den A'ya
+
+=> users arayindeki bio alanı en uzun olan instance'ın bio alanında kaç karakter var? Tek satırda çözünüz.
+
+=> users array'inin içinde kaç tane  "gmail" hesabı olan insatance var? id'lerini yazdırınız.
+
+=> users. array'inde id'si 50'den büyük olan kaç instance var? Bu instance'ların email adreslerini yazdırı
+nız.
+
+=> users array'inde id'si 50'den küçük olan tüm instance'ları siliniz.
+
+=> users array'ine birbirinizin ve benim -mümkün mertebe- gerçek bilgilerimizin yer aldığı 3 instance ekleyin
+
+=> 1'den 100.000'e kadar olan çift sayıların toplamı kaçtır?
+
+5.ASSIGNMENTS - 004
+
+=>http://www.sitepoint.com/guide-ruby-collections-part-arrays/ adresinde başlayan toplam 4 makalelik seriyi ( http://www.sitepoint.com/series/a-guide-to-ruby-collections/ ) okuyup iyice sindirmeniz.
+
+=>Asagidaki sorularin ilgili olanlarini da uzun yollarla degil, makalelerdeki tekniklerle cozmeye calisin lutfen:
+
+=>'e' ve 'x' arasindaki harflerden 7 haneli random string ureten bir fonksiyon yaziniz
+
+=>Verilen string'in gecerli mail adresi oldugunu denetleyen bir fonksiyon yaziniz. (Ipucu: Regex)
+
+
+=>Video diye bir sinif olusturunuz. 
+
+@video.transcode! Deyince 'transcode basladi' yazdirsin
+
+
+=>reset diye bir sinif olusturun.
+
+=>Preset.high_definition deyince 'hd ayatlari' yazdirsin
+
+=>Ruby'nin File sinifini inceleyiniz.
+
+6.ASSIGNMENTS - 005
+
+=>http://bundler.io/ 	kullanarak gemfile olusturun.
+
+=>Bu arada yeni bir user instance'i olustururken, 
+
+=>u = User.new(nickname: "admin")
+
+=>u.errors dedigimizde admin ile alakali error'u goruyor muyuz?
+
+
+7.ASSIGNMENTS - 006
+
+=>Roo gem'ini kullanarak, herhangi bir basit excell ya da ods dosyasinin satirlarina eriserek bunlari konsola yazidiriniz. 
+
+8.ASSIGNMENTS - 007
+
+Sizden talebim, daha once size gosterdigim ilk gem'im Vakit'e contribution'da bulunmaniz.
+
+https://github.com/scaryguy/vakit
+
+=> Bunlari yeni birer branch acarak yapiniz. Ilk soru icin "vakit" diger soru icin "kerahat" olmak uzere iki farkli branch'ta calisiniz. Github'a kendi repository'lerinize gonderirken de bu isimlerde branch'lar olarak gonderiniz. [Cok vakit kaybedecek gibiyseniz, dilerseniz bu kismi es gecebilirsiniz. Su an icin branch'lari kullanarak yapmak zorunda degilsiniz.
+
+=> Vakit.vakit? komutunu verince o an icinde bulunulan vakitin ne oldugu ve sonraki vakite ne kadar sure kaldigina dair bilgi versin. Ornek cikti:
+
+> Vakit.vakit?
+"Su an Ikindi vaktindeyiz. Aksam namazina kalan sure? 03:45"
+
+=> Vakit.kerahat? komutu verince kerahat vakti olup olmadigini denetlesin ve ona gore cevap versin.
+
+> Vakit.kerahat?
+"Saat 19:47. Su an kerahat vaktindeyiz!"
+
+> Vakit.kerahat?
+"Saat 18:47. Kerahat vakti degil. Sunneti kilmayi unutmayin!"
+
+9.ASSIGNMENTS - 008
+
+=>Kure TV icin su an kullandigimiz API'dan bazi  adresler vericem ve bunlari kullanmanizi istiycem.
+
+Oktay Usta Bolumleri:
+http://api.kure.tv/json?cmd=get_episodes&program_id=21&order=id_desc&page=1&auth=b48e34ad49209ff30e03dbaba30de063d10c198bf5ca2ae5d71b62025188a355&tid=1378077872
+
+=> OktayUsta diye bir sinif olusturunuz, OktayUsta.episodes dendiginde, yukaridaki JSON verilerindeki gibi her bolum bir instance olsun ve OktayUsta.episodes komutunun return degeri bu instance'lardan olusan bir array olsun.
+
+10.ASSIGNMENTS - 009
+
+Bizim Vakit gem'i ile uğraşmaya devam edelim biraz daha.
+
+=> Son görüşmemizde ve issue'larda bahsettiğim kerahat? ve vakit? methodlarında uygun düzeltmeleri yapalım.
+
+=> Sizin için yeni bir issue yazdım: 
+
+https://github.com/scaryguy/vakit/issues/3
+
+11.ASSIGNMENTS - 010
+
+=>Bizim kure.tv için hazırladığımız API için bir wrapper gem hazırlamanızı rica ediyorum. 
+
+=>API'ın dokümantasyonu Github repo'sunun Wiki'sinde mevcut. İkinize de repo'yu okuma izni verdim. https://github.com/samanyolu/kure_api/wiki
+
+=>Ayrıca size özel bir private repository açtım ve okuma yazma izni verdim.
+
+=>git@github.com:samanyolu/kure_api_gem.git
+
+=>Hazırlayacağınız gem'i buraya yüklersiniz. Adı kure olsun.
+
+=>İkinizin ayrı ayrı gem'ler yapmanızı değil, aynı gem üzerinde ikinizin de çalışmanızı istiyorum.
+
+=>Dolayısıyla tek repository olacak.
+
+=>Önceki assignment'lardan farklı olarak bu işte birbirinize her konuda yardımcı olmanızı da istiyorum. Birbirinizden mümkün mertebe istifade edin, yardımcı olun. Beraberce bişiler ortaya çıkarın bakalım. 
+
+=>Günün sonunda benim elde etmek istediğim şey,
+
+=>Repo'yu klonlayıp bundle console dediğimde çalışan bir API wrapper :)
+
+=>Dolayısıyla bu gem'i Rubygems'e yüklemenizi istemiyorum. Public olmamalı yani.
+
+
+=>Örnek çalışma mantığı:
+
+api = Kure::Api::Configure.new(url: "http://api.kure.tv", token: "asfalkfjalfkj")
+
+api.get_program(program_id: 21)
+
+api.get_programs(channel_id: 1)
+
+api.get_episodes(category_id: 6)
+
+Gelen sonuçlar Kure::Api::Result türünde olabilir. (Array özelliklerini de taşıyacaktır zaten, önceki yaptıklarınız gibi.
+
+11.ASSIGNMENT - ROR001
+
+=> Onceden yapmis oldugunuz Kure Api Gem i kullanarak,
+
+- /programlar diye programlarin listelendigi,
+- /programlar/[PROGRAM_ID]/bolumler dendiginde o programa ait bolumlerin listelendigi bir Rails uygulamasi yapalim.
+
+12.ASSIGNMENT - ROR002
+
+=> Hospital isimli basit crud islemlerinin yapildigi ruby rails uygulamasi yapin.
+
+=> Bu uygulama da verilen siteden kategori iceriginin bulundugu verileri okuyup bunlari veritabanina kaydedin.
+
+13.ASSIGNMENT - ROR003
+
+=> Nishnews isimli haber sitesi olusturun.Tasarimi ekte.
+
+
+
+
+
+
